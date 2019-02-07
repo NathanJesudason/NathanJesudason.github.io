@@ -15,7 +15,6 @@
 				padding: 10px 10px 10px 10px;
 				border: 0;
 				vertical-align: baseline;
-				background-color: #ff5c50;
 			}
 			img, video {
 				max-width: 90%;
@@ -28,10 +27,19 @@
 		</style>
 	</head>
 <body>
+<div class="title">
+<img src="" style="width:100%">
+</div>
+<div class="links">
+	<a href="https://github.com/nathanjesudason">
+		<img src="">
+	</a>
+</div>
+
 
 <h1>Resume</h1>
 <p>Not really, its just some random projects I have worked on.</p>
-<div class = "project">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
 <h2>Trump Says China Chrome Extension</h2>
 <img src="images/Mine.jpg" alt="Trump Says China Chrome Extension Promotion">
 <p>I made this chrome extension in one hour because my history teacher 
@@ -41,7 +49,7 @@ a five star rating and over 70 downloads.</p>
 </div>
 <br></br>
 
-<div class = "project">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
 <h2>Box Step Robot</h2>
 <video controls>
 <source src="videos/boxstep_Trim.mp4" type ="video/mp4">	
@@ -50,18 +58,27 @@ a five star rating and over 70 downloads.</p>
 </div>
 
 <br></br>
-<div class = "project">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
 <h2>Bear Game</h2>
 <img src="images/PacBear.JPG" alt="image of Bear Game">
 <p>This was the first major attempt at creating a video game with Unity. The results were a lot of sheep and a humanoid bear.</p>
 </div>
 
 <br></br>
-<div class = "project">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
 <h2>Mean Machine Halloween Helment</h2>
 <img src="images/YouVersusTheGuy.png" alt="costume of Mean Machine logo">
 <p>They say imitation is the highest form of flatery. That's why I made my halloween costume the logo fro a FRC team in Camus, Washington.</p>
 </div>
+
+<script type="text/javascript">
+	function mOver(obj) {
+		obj.style.backgroundColor = "#d6725d";
+	}
+	function mOut(obj) {
+		obj.style.backgroundColor = "#ff5c50";
+	}
+</script>
 
 </body>
 </html>
