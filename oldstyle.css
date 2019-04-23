@@ -1,25 +1,60 @@
-			body {
-				background-color: #634363;
-				margin-left: 5%;
-				margin-right: 10%;
-				padding: 2px 2px 2px 2px;
-				font-family: sans-serif;
-			}
-			.project {
-				margin: 0;
-				padding: 10px 10px 10px 10px;
-				border: 0;
-				vertical-align: baseline;
-			}
-			img, video {
-				max-width: 90%;
-				height: auto;
-				margin: 0;
-				border-style: solid;
-				border-width: 5px;
-				border-color: darkgoldenrod;
-			}
-			.links {
-				padding: 1px 1px 1px 1px;
-				display: inline-block;
-			}
+    h1 {
+        text-align: center;
+        color: black;
+    }
+    body {
+        background-color: black;
+        font-family: sans-serif;
+    }
+    .project {
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px 10px 10px 10px;
+        border: 0;
+        box-shadow: 0 6px 20px;
+    }
+
+    img, video {
+        margin-left: 1vw;
+        margin-right: auto;
+        height: auto; 
+        width: 85%; 
+        max-width: 400px; 
+        max-height: 400px;
+        box-shadow: 0 6px 20px;
+    }
+    .links {
+        display: inline-block;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #421242;
+        position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+    li {
+            float: left;
+        }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #8C1F80;
+    }
