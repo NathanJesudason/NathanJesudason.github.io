@@ -1,82 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nathan Jesudason</title>
-		<style type ="text/css">
-			body {
-				background-color: #6a6a6a;
-				margin-left: 5%;
-				margin-right: 10%;
-				padding: 2px 2px 2px 2px;
-				font-family: sans-serif;
-			}
-			.project {
-				margin: 0;
-				padding: 10px 10px 10px 10px;
-				border: 0;
-				vertical-align: baseline;
-			}
-			img, video {
-				max-width: 90%;
-				height: auto;
-				margin: 0;
-				border-style: solid;
-				border-width: 5px;
-				border-color: #4f5641;
-			}
-			.links {
-				padding: 1px 1px 1px 1px;
-				display: inline-block;
-			}
-		</style>
+	<br></br>
+	<br></br>
+		<title>Nathan Jesudason Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
 	</head>
 <body>
 <h1>Nathan Jesudason's Website Portfolio</h1>
-<div class="links" style="margin-right: 20px;">
-	<a href="https://github.com/nathanjesudason">
-		<img src="images/GitHub-Mark-32px.png">
-	</a>
-	<a href="files/Nathan_Jesudason_Resume.pdf" download> 
-		<img src="images/button_resume.png">
-	</a>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="Academics.html">Academics</a></li>
+  <li><a href="files/Nathan_Jesudason_Resume.pdf" download>Resume</a></li>
+  <li><a href="https://github.com/nathanjesudason">Github</a></li>
+</ul>
 </div>
 
-
-<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);">
 <h2>History Class Chrome Extension</h2>
 <img src="images/Mine.jpg" alt="Trump Says China Chrome Extension Promotion">
 <p>I made this chrome extension in one hour because my history teacher 
 kept pulling up videos of Trump saying China (we were learning about Mao).
-After making it I sent it to him, and he then demonstrated it in class. <a href="https://chrome.google.com/webstore/detail/trump-says-china/ccnkhmdohfdgpigempafolbddmliplbf">Now it has
+After making it I sent it to him, and he then demonstrated it in class.<a href="https://chrome.google.com/webstore/detail/trump-says-china/ccnkhmdohfdgpigempafolbddmliplbf">Now it has
 a five star rating and over 70 downloads.</a></p>
 </div>
 <br></br>
 
-<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);">
 <h2>Box Step Robot</h2>
 <video controls>
-<source src="videos/boxstep_Trim.mp4" type ="video/mp4">	
+<source src="videos/Take3.mp4" type ="video/mp4">	
 </video>
-<p></p>
+<p> This was a small arduino robot that I worked on along with Dexter Carpenter. The main challenge with the robot was trying to get the robot to turn
+around a box and go indefinitely. There is no gyro, encoders, or step motors involved, so the robot takes a roughly right angle blind, and then is
+supposed to adjust as it detects the box. The result is somewhat successful.</p>
 </div>
 
 <br></br>
-<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);" style="background-color: #ff5c50;">
+<div class = "project" onmouseover="mOver(this);" onmouseout="mOut(this);">
 <h2>Bear Game</h2>
 <img src="images/PacBear.JPG" alt="image of Bear Game">
-<p>This was the first major attempt at creating a video game with Unity. The results were a lot of sheep and a humanoid bear.</p>
+<p>This was the first major attempt at creating a video game with Unity. This was done in the second year of
+my game making class, after working with Gamemaker and 2d games. The results were a lot of sheep and a humanoid bear.</p>
 </div>
 
 <br></br>
 
-<script type="text/javascript">
-	function mOver(obj) {
-		obj.style.backgroundColor = "#d6725d";
-	}
-	function mOut(obj) {
-		obj.style.backgroundColor = "#ff5c50";
-	}
-</script>
 
 </body>
 </html>
