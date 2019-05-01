@@ -1,13 +1,13 @@
     h1 {
         text-align: center;
-        color: black;
+        color: white;
     }
     body {
-        background-color: black;
+        background-color: #592144;
         font-family: sans-serif;
     }
     .project {
-        background-color: white;
+        background-color: thistle;
         margin-left: 5%;
         margin-right: 5%;
         padding: 10px 10px 10px 10px;
