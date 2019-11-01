@@ -1,4 +1,49 @@
-    h1 {
+
+.pageTitle{
+    margin-top:50px;
+    margin-bottom: inherit;
+}
+
+@media screen and (max-width: 900px){
+
+    .project {
+        text-indent: 3vw;
+        background-color: thistle;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        font-size:104%;
+    }
+
+    .pageTitle{
+       
+        margin-top:100px;
+        margin-bottom:inherit;
+       
+    }
+
+    h2{
+        text-align:center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #421242;
+        position: fixed;
+        top: 0px;
+        left:0px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+h1 {
         text-align: center;
         color: white;
     }
