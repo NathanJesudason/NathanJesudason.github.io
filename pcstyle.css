@@ -1,45 +1,55 @@
+@media (min-width: 1500px){
+
+.pageTitle{
+    margin-top:50px;
+    margin-bottom: inherit;
+}
+
 h1 {
-   /* animation-name: Title;
+    /* animation-name: Title;
     animation-duration: 3s;*/
     text-align: center;
     color: white;
 }
+
 body {
     background-color: #592144;
-     margin: 0;
+    margin: 0;
     font-family: sans-serif;
 }
+
 .project {
     text-indent: 1vw;
     background-color: thistle;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 45px;
     padding: 10px 10px 20px 10px;
     border: 0;
     vertical-align: baseline;
     box-shadow: 0 6px 20px;
+}
+
+.project_content{
     column-count: 2;
 }
+
 .project p {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 400px;
   font-size: 150%;
+  margin-right: 45px;
 }
+
 img, video {
     display: block;
     margin-left: 10vw;
-    margin-right: auto;
+    margin-right: 5vw;
     height: auto; 
     width: 85%; 
     max-width: 400px; 
     max-height: 390px;
     box-shadow: 0 6px 20px;
 }
-    .links {
-        display: inline-block;
-    }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,26 +59,25 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    }
+}
 
 li {
-        float: left;
-    }
+    float: left;
+}
 
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 li a:hover:not(.active) {
-    
-    background-color: #111;
+    background-color: #2e2035;
 }
 
 .active {
     background-color: #8C1F80;
+}
 }
