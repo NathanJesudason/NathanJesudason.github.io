@@ -11,11 +11,11 @@ h1 {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(128, 0, 64), rgb(185, 141, 29));
+    background-image: linear-gradient(to bottom right, rgb(148, 22, 127), rgb(249, 172, 83));
     margin: 0;
     font-family: sans-serif;
-    animation: bg 30s ease infinite;
-    background-size: 200% 200%;
+    animation: bg 25s ease infinite;
+    background-size: 900% 900%;
 
 }
 
@@ -41,7 +41,7 @@ body {
         background-position: 10% 0%;
     }
     50% {
-        background-position: 91% 100%;
+        background-position: 51% 40%;
     }
     100% {
         background-position: 10% 0%;

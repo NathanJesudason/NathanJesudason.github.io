@@ -102,4 +102,22 @@ li a:hover:not(.active) {
 .active {
     background-color: #8C1F80;
 }
+
+#path12146 {
+    stroke-dasharray: 1013;
+    stroke-dashoffset: 1013;
+    fill: black;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke-width: 0.264583;
+    animation: sign 40s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 }
