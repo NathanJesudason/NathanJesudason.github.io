@@ -32,6 +32,33 @@ body {
     max-width: 75%;
 }
 
+#pfp {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 400px;
+}
+
+/* unvisited link */
+p a:link {
+  color: grey;
+}
+
+/* visited link */
+p a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+p a:hover {
+  color: lightgrey;
+}
+
+/* selected link */
+p a:active {
+  color: lightgrey;
+}
+
 /*.project_content{
     column-count: 2;
 }*/
